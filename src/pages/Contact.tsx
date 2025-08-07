@@ -120,14 +120,15 @@ const Contact = () => {
         <div className="absolute inset-0 bg-black opacity-20"></div>
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: 'url("https://www.shutterstock.com/image-vector/contact-us-customer-support-hotline-600nw-2407847227.jpg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")' }}
+          style={{ backgroundImage: 'url("https://exba.com/wp-content/uploads/sites/7/2021/10/contact-us-concept-with-wood-block-and-symbols.jpg")' }}
         ></div>
         <div className="relative z-10 max-w-7xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
-          <p className="text-xl md:text-2xl text-white max-w-3xl mx-auto drop-shadow-md">
-            Ready to transform your space? Let's discuss your vision together.
-          </p>
-        </div>
+  <h1 className="text-4xl md:text-5xl font-bold mb-6">Contact Us</h1>
+  <p className="text-xl md:text-2xl text-white font-bold max-w-3xl mx-auto drop-shadow-md">
+    Ready to transform your space? Let's discuss your vision together.
+  </p>
+</div>
+
       </section>
 
       {/* Contact Info */}

@@ -1,14 +1,15 @@
 import React from 'react';
 import {
   Palette,
-  Sofa,
-  Archive,
-  Layout,
-  Paintbrush,
+  Cable,
+  Compass,
+  Unlock,
+  Grid2x2,
+  Sparkles,
+  Brush,
   Hammer,
-  Layers,
-  Wrench,
-  Package,
+  Monitor,
+  Feather
 } from 'lucide-react';
 
 const Services = () => {
@@ -31,124 +32,157 @@ const Services = () => {
         'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
     },
     {
-      icon: Sofa,
-      title: 'Furniture Design',
-      subtitle: 'Custom-built pieces for function and style',
+      icon: Hammer,
+      title: 'Modular Kitchen',
+      subtitle: 'Modern, functional kitchens tailored to your lifestyle',
       description:
-        'Bespoke furniture designed and crafted to perfectly fit your space and meet your specific needs.',
+        'Custom-designed modular kitchens that blend functionality with style, perfectly suited to your space and cooking needs.',
       features: [
-        'Custom design consultation',
-        'Quality material sourcing',
-        'Skilled craftsmanship',
-        'Perfect fit guarantee',
-        'Style coordination',
-        'Lifetime warranty',
+        'Design Consultation',
+        'Premium Materials',
+        'Expert Installation',
+        'Space Optimization',
+        'Style Coordination',
+        'Precision Fit',
       ],
       image:
-        'https://images.woodenstreet.de/image/cache/data/bed-with-storage/walken-bed-with-storage/updated/NEW-+HONEY/1-750x650.jpg',
+        'https://aleamodular.com/wp-content/uploads/2022/03/is1.jpg',
     },
     {
-      icon: Archive,
-      title: 'Modular Wardrobes & Storage',
-      subtitle: 'Smart and stylish storage solutions',
+      icon: Compass,
+      title: 'Pooja Unit',
+      subtitle: 'Sacred, serene spaces crafted with devotion',
       description:
-        'Maximize your space with intelligent storage systems that combine functionality with elegant design.',
+        'Custom-designed pooja units that bring harmony and elegance to your home, tailored to your spiritual and aesthetic preferences.',
       features: [
-        'Space optimization',
-        'Custom configurations',
-        'Premium hardware',
-        'Soft-close mechanisms',
-        'Interior accessories',
-        'Easy maintenance',
+        'Vastu Optimization',
+        'Premium wood and materials',
+        'Handcrafted Detailing',
+        'Style Coordination',
+        'Design Consultation',
+        'Perfect Fit',
       ],
       image:
-        'https://flemingokitchens.com/wp-content/uploads/photo-gallery/f-Wardrobe/Modular-Wardrobes-Manufacturer-in-Jaipur-2.jpg?bwg=1700308640',
+        'https://www.decorpot.com/images/blogimage2041050281compact-wall-units-for-pooja-storage-in-chennai-homes-maximizing-space-without-compromising-style.jpg',
     },
     {
-      icon: Layout,
-      title: 'Space Planning',
-      subtitle: 'Optimal layouts that maximize utility',
+      icon: Cable,
+      title: 'Tv Unit',
+      subtitle: 'Stylish, functional entertainment spaces for modern living',
       description:
-        'Strategic space planning that improves flow, functionality, and makes the most of every square foot.',
+        'Custom-designed TV units that blend technology with design, offering storage, style, and seamless integration with your living space.',
       features: [
-        'Traffic flow analysis',
-        'Functional zoning',
-        'Furniture placement',
-        'Storage optimization',
-        'Lighting integration',
-        'Building code compliance',
+        'Smart Storage',
+        'Cable Management',
+        'Premium Materials',
+        'Visual Planning',
+        'Seamless Integration',
+        'Aesthetic Harmony',
       ],
       image:
-        'https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://media.designcafe.com/wp-content/uploads/2023/12/13173921/corner-tv-unit-design.jpg',
     },
     {
-      icon: Paintbrush,
-      title: 'Wall Design, Paint & Décor',
-      subtitle: 'Textures, colors, and accents that pop',
+      icon: Unlock,
+      title: 'Wardrobes',
+      subtitle: 'Tailored storage solutions blending elegance and efficiency',
       description:
-        'Transform your walls with expert painting, texturing, and decorative treatments that create stunning focal points.',
+        'Custom-built wardrobes designed to complement your interiors, maximize space, and organize your lifestyle with a perfect mix of style and functionality.',
       features: [
-        'Color consultation',
-        'Texture application',
-        'Decorative finishes',
-        'Wall art coordination',
-        'Accent wall design',
-        'Premium paint products',
+        'Spatial Planning',
+        'Refined Finishes',
+        'Smooth drawers/doors',
+        'Smart Organization',
+        'Match with interior design',
+        'Exact fitting',
       ],
       image:
-        'https://www.decorpot.com/images/455371817fascinating-wall-panel-designs-as-well-as-tips-for-living-room-and-bedrooms.jpeg',
+        'https://media.designcafe.com/wp-content/uploads/2020/05/30190405/materials-finshes-for-wardrobe-in-bedroom.jpg',
     },
-    
     {
-      icon: Layers,
+      icon: Sparkles,
       title: 'False Ceiling',
       subtitle: 'Enhance beauty and lighting with elegant ceilings',
       description:
         'Sophisticated ceiling designs that improve acoustics, lighting, and add architectural interest to your space.',
       features: [
-        'Gypsum board installation',
-        'Integrated lighting',
-        'Acoustic solutions',
-        'Air conditioning integration',
-        'Design flexibility',
-        'Easy maintenance',
+        'Ceiling Design',
+        'Lighting Integration',
+        'Utility Concealment',
+        'Visual appeal & flow',
+        'Flawless Finish',
+        'Luxe Panels',
       ],
       image:
-        'https://5.imimg.com/data5/SELLER/Default/2023/7/326393660/CO/KE/GZ/71428136/gypsum-board-false-ceiling-service.jpg',
+        'https://www.montdorinterior.com/wp-content/uploads/2024/09/5-best-false-ceiling-designs-bedrooms.jpg',
     },
     {
-      icon: Wrench,
-      title: 'Professional Installation',
-      subtitle: 'Timely, expert execution',
+      icon: Monitor,
+      title: 'Work Space',
+      subtitle: 'Productive environments designed for comfort and focus',
       description:
-        'Professional installation services ensuring every element is perfectly placed and functioning as designed.',
+        'Custom-designed workspaces that balance functionality with style — built to boost efficiency, reflect your personality, and fit seamlessly into your home or office.',
       features: [
-        'Skilled technicians',
-        'Quality assurance',
-        'Timely completion',
-        'Clean work practices',
-        'Post-installation support',
-        'Warranty coverage',
+        'Focused Design',
+        'Elegant Finishes',
+        'Smart Storage',
+        'Tech Integration',
+        'Matches decor and aesthetics',
+        'Custom Fit',
       ],
       image:
-        'https://images.pexels.com/photos/6474476/pexels-photo-6474476.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://officebanao.com/wp-content/uploads/2024/07/modern-office-with-no-people-luxury-chair-generated-by-ai.jpg',
     },
     {
-      icon: Package,
-      title: 'End-to-End Projects',
-      subtitle: 'We handle everything from concept to completion',
+      icon: Feather,
+      title: 'Wood Flooring',
+      subtitle: 'Natural warmth and elegance beneath your feet',
       description:
-        'Complete project management from initial consultation through final installation and beyond.',
+        'Custom wood flooring solutions that enhance the character of your space — combining durability, style, and craftsmanship for timeless interiors.',
       features: [
-        'Project planning',
-        'Design development',
-        'Material procurement',
-        'Timeline management',
-        'Quality control',
-        'Final walkthrough',
+        'Floor Planning',
+        'Premium wood types',
+        'Expert installation',
+        'Durable Finish',
+        'Interior style match',
+        'Underfoot Comfort',
       ],
       image:
-        'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop',
+        'https://media.istockphoto.com/id/2037012871/photo/open-space-living-room-and-kitchen-interior-with-large-windows-gray-sofa-dining-table-and.jpg?s=612x612&w=0&k=20&c=s6FEeZT3SKyrZL9diSxzwnJpWEkTxh7dcyWLJESr3s4=',
+    },
+    {
+      icon: Grid2x2,
+      title: 'Aluminium Partitions',
+      subtitle: 'Sleek, functional divisions for modern spaces',
+      description:
+        'Custom aluminium partitions designed to create privacy, define spaces, and add contemporary appeal — all while ensuring strength, flexibility, and style.',
+      features: [
+        'Space Division',
+        'Lightweight + strong build',
+        'Installation precision',
+        'Glass/aluminium combos',
+        'Office or home use',
+        'Sleek look & match',
+      ],
+      image:
+        'https://i.pinimg.com/originals/cd/49/f1/cd49f1b6a3b453389aa60e92bf9133ac.jpg',
+    },
+    {
+      icon: Brush,
+      title: 'Wallpaper & Decor',
+      subtitle: 'Artful expressions to transform your walls',
+      description:
+        'Custom wallpaper and decor solutions that elevate your interiors with bold textures, elegant finishes, and personalized style that reflects your taste.',
+      features: [
+        'Style selection & themes',
+        'Premium wallpaper options',
+        'Wall art and accents',
+        'Seamless Installation',
+        'Interior style match',
+        'Durable & long-lasting',
+      ],
+      image:
+        'https://images.meesho.com/images/products/375308027/bzfee_512.webp?width=512',
     },
   ];
 
@@ -161,13 +195,13 @@ const Services = () => {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              'url("https://images.unsplash.com/photo-1715593949273-09009558300a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D ")',
+              'url("https://images.unsplash.com/photo-1715593949273-09009558300a?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2ZmaWNlJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D")',
           }}
         ></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 drop-shadow-lg">HiFi-Trendz Capabilities</h1>
           <p className="text-xl md:text-2xl max-w-3xl rounded-lg bg-black/20 mx-auto text-white drop-shadow-md">
-            Tailored solutions that blend innovation, quality, and creativity
+            Tailored solutions that blend innovation, quality, and creativity
           </p>
         </div>
       </section>
@@ -178,7 +212,7 @@ const Services = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-text mb-4">Our Services</h2>
             <p className="text-xl text-text-light max-w-3xl mx-auto">
-              Comprehensive interior design solutions to transform your space from concept to completion
+              Comprehensive interior design solutions to transform your space from concept to completion
             </p>
           </div>
           {services.map((service, index) => {
@@ -186,7 +220,9 @@ const Services = () => {
             return (
               <div
                 key={index}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}
+                className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
+                  index % 2 === 1 ? 'lg:grid-flow-col-dense' : ''
+                }`}
               >
                 <div className={index % 2 === 1 ? 'lg:col-start-2' : ''}>
                   <div className="bg-surface p-8 rounded-lg shadow-lg">
@@ -217,7 +253,7 @@ const Services = () => {
                       alt={service.title}
                       className="rounded-lg shadow-xl group-hover:shadow-2xl transition-shadow w-full h-80 object-cover"
                     />
-                    <div className="absolute inset-0 bg-primary opacity-0 group-hover:opacity-20 transition-opacity rounded-lg"></div>
+                    <div className="absolute inset-0 bg-gray opacity-0 group-hover:opacity-20 transition-opacity rounded-lg"></div>
                   </div>
                 </div>
               </div>
@@ -251,7 +287,7 @@ const Services = () => {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* CTA Section */}
       <section className="py-16 bg-primary text-white text-center">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Space?</h2>
