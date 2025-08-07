@@ -20,7 +20,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-2"
-          style={{ backgroundImage: 'url("https://www.dereknielsen.com/wp-content/uploads/2024/02/landscape-interior-design-cover.jpg")' }}
+          style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1715593947958-ee0ca51de552?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==")' }}
         ></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
           <div className="max-w-3xl">
@@ -28,7 +28,7 @@ const Home = () => {
               Transform Your Space Into a{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-primary">Dream Reality</span>
             </h1>
-            <p className="text-xl md:text-2xl text-gray-350 max-w-3xl mx-auto mx-auto mb-6">
+            <p className="text-xl md:text-2xl text-white-400 max-w-3xl mx-auto mx-auto mb-6">
               From concept to completion, we create stunning interiors that reflect your style and enhance your lifestyle.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
